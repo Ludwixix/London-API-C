@@ -56,8 +56,6 @@ class App extends Component {
     console.log(date)
     if (cForecast) {
       const textBackground = this.generateClassname()
-      console.log(textBackground)
-      console.log(cForecast.pM10Band)
       return (
         <>
         <div className="background"></div>
