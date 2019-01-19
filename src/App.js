@@ -8,7 +8,7 @@ class App extends Component {
   state = {}
 
   componentDidMount (){
-    axios.get('http://localhost:5000/weatherData')
+    axios.get('http://edge2travel-api.herokuapp.com/weatherData')
     .then(res => {
       console.log(res.data.forecastSummary)
         this.setState({
